@@ -1,0 +1,200 @@
+body{
+    font-family: 'Roboto';
+    margin:0;
+    padding:0;
+}
+
+.container{
+    margin: 0 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin-top: 10px;
+    font-size: 24px;;
+    border: none;
+    padding: 24px 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bolder;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    align-self: center;
+    border-radius: 20em;
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/************************************************* NavBar ***************************************************************************/
+
+#navbar{
+    background-color: #1F2937;
+    height: 100px;
+    padding-top: 50px;;
+}
+
+#navbar .container{
+    height:100%;
+    display: flex;
+}
+
+#navbar div{
+    flex: 1 1 auto;
+}
+
+#HeaderLogoText{
+    font-size: 24px;
+    color:#F9FAF8;
+    border: 2px solid white;
+    padding: 10px;
+    width:50%;
+}
+
+#links{
+    display: flex;
+    gap:10px;
+    padding-left: 50em;
+}
+
+#navbar div a{
+    text-align: right;
+    flex: 1 1 auto;
+    justify-content:flex-end;
+    text-decoration: none;
+    font-size: 24px;
+    color: #E5E7E8;
+    display: inline-flex;
+}
+
+/************************************************* Sign Up Area ***************************************************************************/
+
+#SignUpArea{
+    height:100%;
+    background-color: #1F2937;
+}
+
+#SignUpArea .container{
+    height: 100%;
+    display:flex;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+#SignUpArea div{
+    height: 100%;
+    flex: 1 1 0;
+}
+
+#left{
+    padding-right: 40px;
+}
+
+#right{
+    display:flex;
+    align-items: center;
+}
+
+#right img{
+    border:#e5e7eb solid 2px;
+}
+
+#HeroMainText{
+    font-size: 60px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+#HeroSecondaryText{
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+/************************************************* Information Area ***************************************************************************/
+
+#InformationHeader{
+    font-size: 36px;
+    font-style: bold;
+    color:#1f2937;
+    padding:0;
+}
+
+#InfoArea .container{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+#Infocontatiner{
+    display: flex;
+    gap: 10px;
+}
+
+#Infocontatiner div{
+    flex: 1 1 0;
+}
+
+.square{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/**************************************************** Quote Area ***************************************************************************/
+
+#QuoteArea{
+    background-color: #e5e7eb;
+    padding: 150px 0;
+}
+
+#QuoteText{
+    color:#1f2937;
+    font-style: italic;
+    font-size:38px;
+    font-weight:100;
+}
+
+#Author{
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: end;
+}
+
+/**************************************************** MsgArea ***************************************************************************/
+
+#MsgArea .container{
+    display:flex;
+    background-color: #3882F6;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 0.5% 10%;
+}
+
+#MsgArea .container div{
+    flex: 1 1 auto;
+    padding: 20px;
+}
+
+#SubText{
+    margin-top: 0;
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+#CallToAction{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+/******************************************************* Footer ***************************************************************************/
+#footer{
+    text-align: center;
+}
