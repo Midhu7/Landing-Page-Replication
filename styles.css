@@ -60,11 +60,9 @@ img{
 #links{
     display: flex;
     gap:10px;
-    padding-left: 50em;
 }
 
 #navbar div a{
-    text-align: right;
     flex: 1 1 auto;
     justify-content:flex-end;
     text-decoration: none;
