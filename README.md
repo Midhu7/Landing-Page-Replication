@@ -1,1 +1,1 @@
-# Lanfing-Page-Replication
+# Landing-Page-Replication
